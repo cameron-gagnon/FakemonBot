@@ -51,8 +51,8 @@ class Submissions:
                 db.insert(ID)
 
                 # sleep to avoid rate limiting
-                log.debug("Sleeping for 30 seconds to avoid being rate limited")
-                time.sleep(30)
+                log.debug("Sleeping for 10 minutes to avoid being rate limited")
+                time.sleep(600)
 
     def parse_for_keywords(self, title):
         # search for keyword string
