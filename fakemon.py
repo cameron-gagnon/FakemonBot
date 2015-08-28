@@ -90,7 +90,7 @@ class Submissions:
             time.sleep(10)
 
     def generate_reply_string(self, user):
-        reply_string = "Artist: [" + user.lower() + ".deviantart.com](" + user.lower() + ".deviantart.com)"
+        reply_string = "Artist: [" + user.lower() + ".deviantart.com](https://" + user.lower() + ".deviantart.com)"
         return reply_string
  
 ###########################################################################
